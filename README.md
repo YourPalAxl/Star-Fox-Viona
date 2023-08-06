@@ -53,5 +53,5 @@ Please make sure you've got the following:
 
 
 # Special Thanks:
-Nintendo and Argonaut Software: For the creation of the SuperFX chip, and the Star Fox series
-Sunlitspace542: Providing the source code for people to start making ROM Hacks easier!
+* Nintendo and Argonaut Software: For the creation of the SuperFX chip, and the Star Fox series
+* Sunlitspace542: Providing the source code for people to start making ROM Hacks easier!
