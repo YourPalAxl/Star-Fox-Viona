@@ -97,16 +97,16 @@ bgandpcr
 	db	"01"				; Maker Code
 	db	"FO  "				; Game Code
 	db	0,0,0,0,0,0,0		; Fixed Value
-	db	6					; Expansion RAM Size (5 = 32kbyte, 6 = 64kbyte)
+	db	5					; Expansion RAM Size (5 = 32kbyte, 6 = 64kbyte)
 	db	0					; Special Version
 	db	0					; Cartridge Type (Sub-number)
 
 	org	$00ffc0,$7fc0
 
 	IFEQ	internalname	; if internalname = 0
-	db	"STAR FOX             "  
+	db	"STAR FOX: VIONA      "  
 	ELSEIF					; if internalname = 1
-	db	"STAR WING            "  
+	db	"STAR WING: VIONA     "  
 	ENDC
 
 	; hardware info
@@ -117,17 +117,17 @@ bgandpcr
 	ELSEIF
 	db	$20					; Map Mode (20 = SlowROM, 30 = FastROM) LoROM
 	ENDC
-	db	$14					; Cartridge Type
+	db	$13					; Cartridge Type
 							 ; (13) Super FX 1 (StarFox 1)
 							 ; (14) Super FX 2 (DOOM)
 							 ; (15) Battery + Super FX 2 (Yoshi's Island)
 							 ; (1A) Battery + Super FX 1 (Stunt Race FX)
-	db	$0b					; ROM Size (0A = 8mbit, 0B = 16mbit)
+	db	$0a					; ROM Size (0A = 8mbit, 0B = 16mbit)
 	db	$00					; RAM Size (if 0, use exp RAM size above)
 	db	hdr_region			; Destination Code (from below)
 	db	$33					; Fixed Value
 	db	$00					; Mask ROM Version
-	dw	$ffff				; Compliment Check
+	dw	$FFFF				; Compliment Check
 	dw	$0000				; Check Sum
 
 
