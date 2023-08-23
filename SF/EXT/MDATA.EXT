@@ -1,7 +1,7 @@
 	global	ztab,maxztab,star_cols
 	global	particle_circle
 	global	mscalechars,mariomsgs
-	global	msg_starfox,msg_nintendo,msg_presented
+	global	msg_starfox,msg_axl,msg_presented
 	global	msg_developed,msg_and,msg_programmed
 	global	msg_by,msg_argonaut
 	global	msg_eguchi,msg_miyamoto,msg_yamauchi
