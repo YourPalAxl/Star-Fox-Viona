@@ -888,6 +888,34 @@ friends_messages_l
 	db	$8c	; andross
 	db	$8c	; andross
 	db	$8c	; andross
+	db	$8c	; anyone
+	db	$8c	; anyone
+	db	$8c	; anyone
+	db	$8c	; anyone
+	db	$8c	; adag
+	db	$8c	; adag
+	db	$8c	; adag
+	db	$8c	; adag
+	db	$60	; axlfear
+	db	$60	; axlanger
+	db	$60	; axlpain
+	db	$60	; axlawe
+	db	$7c	; justinefear
+	db	$7c	; justinefear
+	db	$7c	; justinefear
+	db	$7c	; justinefear
+	db	$7d	; justineanger
+	db	$7d	; justineanger
+	db	$7d	; justineanger
+	db	$7d	; justineanger
+	db	$62	; justinepain
+	db	$62	; justinepain
+	db	$62	; justinepain
+	db	$62	; justinepain
+	db	$62	; justineawe
+	db	$62	; justineawe
+	db	$62	; justineawe
+	db	$62	; justineawe
 
 .displayface
 ; a is frame to show

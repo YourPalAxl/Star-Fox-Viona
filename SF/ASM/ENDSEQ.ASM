@@ -1807,6 +1807,7 @@ intro_l
 .lp3	jsl	setblack_l
 	jsl	transfer_l
 	a8
+	jsl	friends_messages_l
 	lda	gameframe
 	cmp	#30
 	bcc	.lp3
